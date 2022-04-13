@@ -3,21 +3,23 @@ class Curso {
   Disciplina disciplina1;
   Disciplina disciplina2;
   Disciplina disciplina3;
+  float media;
   
   float calcularMedia() {
-    Disciplina disciplina1 + disciplina2 + disciplina3 / 3;   
+    media = (disciplina1 + disciplina2 + disciplina3) / 3;
+    return media;
   }
 
-  boolean estaAprovado(float calcularMedia) {
-    if calcularMedia > 60{
-      System.out.println("Aprovado");
-    else{
-      System.out.println("Reprovado");
-    }
+  boolean estaAprovado(float media) {
+      if media >= 60{
+        System.out.println("Aprovado");
+      else{
+        System.out.println("Reprovado");
+      }
     }
   }
   
   float notaPorDiciplina() {
-    
+    return notaFinal;
   }
 }

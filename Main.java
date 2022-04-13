@@ -9,5 +9,8 @@ class Main {
     prof.nome = "Joaquim";
   }
 
+  float mediaAlunos = mediaA1 + mediaA2;
+  System.out.println("A soma da média entre os dois alunos é" + mediaAlunos);
+
   
 }

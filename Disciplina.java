@@ -10,6 +10,6 @@ class Disciplina {
   }
 
   float retornarNotaFinal() {
-    float notaFinal;
+    return notaFinal;
   }
 }
