@@ -5,6 +5,7 @@ class Aluno {
   Disciplina disciplina;
   Professor professor;
 
+  //Constructor do Aluno
   Aluno(String n, int mat, Curso ncurso, Disciplina discpl, Professor prof){
     nome = n;
     matricula = mat;
@@ -14,7 +15,7 @@ class Aluno {
   }  
   
   void exibirRelatorio(String nome, Curso curso, boolean estaAprovado) {
-    String n = "Nome" + nome;
+    String n = "Nome do Aluno" + nome;
     Curso ncurso;
     boolean estaAprovado;
   }

@@ -1,12 +1,17 @@
 class Curso {
   String nome;
-  Disciplina disciplina1;
-  Disciplina disciplina2;
-  Disciplina disciplina3;
   float media;
+  float notaFinal;
+
+  Disciplina disciplina1 = new Disciplina();
+  discpl.nome = "Matematica";
+  Disciplina disciplina2 = new Disciplina();
+  discpl.nome = "Calculo";
+  Disciplina disciplina3 = new Disciplina();
+  discpl.nome = "Fisica";
   
-  float calcularMedia() {
-    media = (disciplina1 + disciplina2 + disciplina3) / 3;
+  float calcularMedia(float notaFinal, float media) {
+    media = notaFinal / 3;
     return media;
   }
 
